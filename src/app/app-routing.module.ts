@@ -6,6 +6,7 @@ import { CustomOperatorFromZeroComponent } from './custom-operator-from-zero/cus
 import { CustomOperatorFromAnotherOperatorComponent } from './custom-operator-from-another-operator/custom-operator-from-another-operator.component';
 import { MulticastOperatorsComponent } from './multicast-operators/multicast-operators.component';
 import { SpecializedMulticastOperatorsComponent } from './specialized-multicast-operators/specialized-multicast-operators.component';
+import { SchedulersComponent } from './schedulers/schedulers.component';
 
 export const routes: Routes = [
   {
@@ -31,6 +32,10 @@ export const routes: Routes = [
   {
     path: 'specialized-multicast-operators',
     component: SpecializedMulticastOperatorsComponent
+  },
+  {
+    path: 'schedulers',
+    component: SchedulersComponent
   }
 ];
 

@@ -12,6 +12,7 @@ import { CustomOperatorFromZeroComponent } from './custom-operator-from-zero/cus
 import { CustomOperatorFromAnotherOperatorComponent } from './custom-operator-from-another-operator/custom-operator-from-another-operator.component';
 import { MulticastOperatorsComponent } from './multicast-operators/multicast-operators.component';
 import { SpecializedMulticastOperatorsComponent } from './specialized-multicast-operators/specialized-multicast-operators.component';
+import { SchedulersComponent } from './schedulers/schedulers.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SpecializedMulticastOperatorsComponent } from './specialized-multicast-
     CustomOperatorFromZeroComponent,
     CustomOperatorFromAnotherOperatorComponent,
     MulticastOperatorsComponent,
-    SpecializedMulticastOperatorsComponent
+    SpecializedMulticastOperatorsComponent,
+    SchedulersComponent
   ],
   imports: [
     BrowserModule,
